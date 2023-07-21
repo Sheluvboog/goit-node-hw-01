@@ -1,0 +1,35 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "goit-node-hw-01",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "npm": "9.3.1",
+    "node": "v18.14.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sheluvboog/goit-node-hw-01.git"
+  },
+  "keywords": [],
+  "author": "Oleh Kovtun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sheluvboog/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/Sheluvboog/goit-node-hw-01#readme",
+  "devDependencies": {
+    "eslint": "^8.43.0",
+    "nodemon": "^2.0.22"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
